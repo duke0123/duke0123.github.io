@@ -1,0 +1,76 @@
+.box {
+    font-size: 25px;
+}
+
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+#cool {
+    object-fit: cover;
+    width: 600px;
+
+}
+
+.cool1 {
+    margin-left: 200px;
+}
+
+
+@media (max-width:600px) {
+    .cool1 {
+        margin-left: 0px;
+        margin-left: 150px;
+
+    }
+}
+
+.box2 {
+    margin-left: 250px;
+}
+
+@media (max-width:600px) {
+    .box2 {
+        margin-left: 0px;
+        margin-left: 200px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .box3 {
+        margin-right: 50px;
+
+    }
+}
+
+.box4 {
+    margin-left: 180px;
+}
+
+
+@media (max-width:600px) {
+    .box4 {
+        margin-left: 0px;
+        margin-left: 130px;
+
+    }
+}
+
+.box12 {
+    width: 100%;
+    color: white
+}
+
+.box5 {
+    height: 600px;
+}
+
+.box {
+    font-size: 25px;
+}
